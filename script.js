@@ -1,7 +1,7 @@
 const welcomeTexts = [
-  { main: "Website Kenangan", sub: "Tempat menyimpan cerita kita." },
-  { main: "Untuk Kenangan Indah", sub: "Semua momen spesial tersimpan di sini." },
-  { main: "Untuk Aku dan Kamu", sub: "Terima kasih sudah menjadi bagian dari hidupku." }
+  { main: "Special Message Enclosed", sub: "From Map to Na with love" },
+  { main: "Our Time Machine", sub: "A chance to walk in memory lane" },
+  { main: "Before We Begin...", sub: "Promise me you'll smile. Then click below and enjoy the ride!" }
 ];
 
 let textIndex = 0;
@@ -34,7 +34,7 @@ function changeText() {
   }, 500);
 }
 
-let textInterval = setInterval(changeText, 3000);
+let textInterval = setInterval(changeText, 3500);
 
 function enterWebsite() {
   clearInterval(textInterval);
@@ -53,7 +53,7 @@ function enterWebsite() {
   }, 800);
 }
 
-const startDate = new Date("2023-02-14T00:00:00").getTime();
+const startDate = new Date("2024-08-09T00:00:00").getTime();
 
 function updateTimer() {
   const now = new Date().getTime();
